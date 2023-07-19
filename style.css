@@ -1,0 +1,88 @@
+*{
+ font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.delete-product, .modal-header-button{
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color: orange;
+    padding: 10px;
+}
+
+.ver-carrito{
+    cursor: pointer;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    text-align: center;
+    border: 2px orange solid;
+    padding: 40px;
+}
+
+.producto img{
+    width: 145px;
+    height: 180px;
+}
+
+.shop-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.modal-header{
+    display: flex;
+    width: 41%;
+    justify-content: space-between;
+    color: white;
+    background-color: gray;
+    padding: 10px;
+}
+
+.modal-header h1{
+    background-color: gray;
+}
+
+.modal-content{
+    display: flex;
+    text-align: center;
+    width: 40%;
+    align-items: center;
+    /* border: 2px blue solid; */
+    justify-content: space-between;
+    background-color: white;
+    border: 1px gray solid;
+    padding: 18px;
+}
+
+.modal-content img{
+    width: 145px;
+    height: 180px;
+}
+
+.modal-content h3{
+    color: orange;
+}
+
+.producto h3{
+    color: orange;
+}
+
+.modal-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.total-content{
+    font-size: 25px;
+    margin-top: 15px;
+}
